@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    /* grid-template-columns: 20% 20% 20% 20% 20%; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: repeat(1, 1fr 2fr 1fr);
+
+    /* column-gap: 12px;
+    row-gap: 12px; */
+    gap: 12px;
+  }
+  .container > div {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  /* .container > div:nth-child(even) {
+    background-color: wheat;
+  } */
+  .nested {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .nested > div {
+    border: 1px solid black;
+    padding: 8px;
+  }

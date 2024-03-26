@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+  }
+  h1 {
+    color: red;
+  }
+  p {
+    color: blue;
+  }
+
+  @media screen and (min-width: 500px) {
+    h1 {
+      color: green;
+    }
+    p {
+      color: purple;
+    }
+  }

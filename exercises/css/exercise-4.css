@@ -1,0 +1,16 @@
+.box1 {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+  .box2 {
+    width: 100px;
+    height: 100px;
+    background-color: palevioletred;
+    position: relative;
+    top: 25px;
+    left: 25px;
+  }

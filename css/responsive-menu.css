@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: wheat;
+    padding: 12px;
+  }
+  .navbar > a {
+    margin: 0 12px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .navbar .menu-icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 655px) {
+    .navbar .menu-icon {
+      display: block;
+    }
+    .navbar a {
+      display: none;
+    }
+  }

@@ -1,0 +1,39 @@
+button {
+    background-color: black;
+    color: white;
+  }
+  /* pseudo classes stylings */
+  button:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+  button:active {
+    background-color: yellow;
+    color: black;
+  }
+  li:first-child {
+    color: blueviolet;
+  }
+  li:nth-child(3) {
+    color: red;
+  }
+  li:last-child {
+    color: aqua;
+  }
+
+  /* pseudo elements stylings */
+  p::before {
+    content: "Read this....";
+    color: red;
+  }
+  p::after {
+    content: "The End";
+    color: red;
+  }
+  p::first-letter {
+    font-size: 30px;
+    color: blue;
+  }
+  p::first-line {
+    font-weight: bold;
+  }

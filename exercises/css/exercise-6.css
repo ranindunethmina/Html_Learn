@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: wheat;
+    padding: 12px;
+  }
+  #logo-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+  }
+  .logo-container {
+    display: flex;
+  }
+
+  .navbar > ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar > ul {
+    list-style-type: none;
+  }
+
+  .navbar > ul > li {
+    margin: 0 8px;
+  }
+
+  .navbar > ul > li > a {
+    text-decoration: none;
+    color: wheat;
+  }
+
+  .intro-container {
+    display: flex;
+  }
+
+  .intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 12px;
+  }
+
+  #intro-image {
+    width: 50%;
+    height: 90vh;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  .social-media > a > img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .tech-card {
+    background-color: white;
+    border-radius: 20px;
+  }
+
+  .tech-card > h2 {
+    text-align: center;
+  }
+
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .tech-image {
+    border-radius: 20px;
+  }
