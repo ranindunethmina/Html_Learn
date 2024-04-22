@@ -32,3 +32,15 @@ console.log('Type of phoneNumber : ', typeof phoneNumber)
 // 6. Symbol - Introduced in ECMAScript 6 (ES6), symbols are unique and immutable primitive values. They are often used as unique identifiers.
 let symbol = Symbol('First Name')
 console.log('Type of symbol : ', typeof symbol)
+
+// 7. BigInt
+const number1 = 100276384567283648623856n
+const number2 = 100;
+
+const result = number1 + BigInt(number2);
+console.log('Result : ', result)
+
+// non-primtive-data type
+//  1.objects
+//  2.Array
+//  3.functions
