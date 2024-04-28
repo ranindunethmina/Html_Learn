@@ -22,6 +22,29 @@ console.log('Student age : ', student.age)
 console.log('Student : ', student)
 
 // assigning values using square brackets notation
-student.age = 22;
+student['age'] = 22;
 console.log('Student age : ', student.age)
 console.log('Student : ', student)
+
+// ============
+console.log('========')
+
+let person = {
+    name: 'Kamal',
+    age: 20,
+    phone: '0778327821',
+    greet: () => {
+        console.log('Hey Good morning!')
+    }
+}
+console.log(person.greet())
+
+console.log('==========')
+
+// Iterating over properties
+for (let key in person) {
+    console.log(key + ' : ' + person[key])
+}
+
+console.log(person.age)
+console.log(person['age'])
