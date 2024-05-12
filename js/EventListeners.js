@@ -34,3 +34,15 @@ document.getElementById('myForm').addEventListener('submit', (event) => {
   event.preventDefault()
   console.log('Form submitted!')
 })
+
+// ========= numbers only validation ==========
+document.getElementById('numberInput').addEventListener('keydown', function (event) { 
+  console.log(event.keyCode)
+
+  if (event.keyCode >= 48 && event.keyCode <= 57) {
+   // allow to type   
+  } else { 
+      event.preventDefault()
+      alert("Numbers only")
+  }
+})
