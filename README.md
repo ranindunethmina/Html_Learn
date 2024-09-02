@@ -1,1 +1,1 @@
-HTML, CSS, JavaScript practice lessons
+# HTML, CSS, JavaScript Practice Lessons
